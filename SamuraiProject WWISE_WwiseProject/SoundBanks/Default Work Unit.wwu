@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2A57F3FF-6AEE-4D9F-9E36-1894954ABC64}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2A57F3FF-6AEE-4D9F-9E36-1894954ABC64}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{05A819A3-85AE-43E3-B886-C9B5E6581D8C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Forest_Amb" ID="{89AF0453-C6D5-4108-836E-29F63E8BF00F}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Plyer_Sword_Block" ID="{23694F2E-6862-412A-AC38-58F98BCB34C1}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Plyer_Sword_Whsh" ID="{4B394700-098E-4152-897A-353FDF504F69}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Forest_Wind" ID="{E4AD6184-EF54-422B-A955-AC1B137C1835}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_Sword_Equip" ID="{1BA0A0C1-A9C6-435F-90CD-9805B2720FED}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_Sword_Block" ID="{0050A9C6-A7D6-43A5-AF00-2EFF55CFBB92}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyFootsteps" ID="{32456132-2F33-43B4-BF09-6E4FD66B8E51}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_Sword_Whsh" ID="{6A282A0F-0A70-43CB-BE72-0324994CDD76}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bush_Emt" ID="{507FDA65-CA01-4400-8EE9-920ECA67D8CC}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Plyer_Sword_Unequip" ID="{1B3DAE66-CE65-452A-AF55-68C251AA398D}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Plyer_Sword_Shsh" ID="{10022444-257F-4586-BF3A-CE8D53EE6123}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Plyer_Sword_Equip" ID="{51F4BBFD-9370-46D1-A230-A872B74F3938}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Plyer_Sword_Break" ID="{6E7F7677-FE01-47EF-AE19-538FEB451CB0}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Plyer_Sword_Hit" ID="{49BD3A88-C07B-4891-96ED-B1C55577315F}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_Sword_Hit" ID="{AE8C3E0F-1953-48EB-AD4D-EBC0E3459F29}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Loot" ID="{B12B2480-EA1D-49EB-B53D-4940A4200B4C}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerFootsteps" ID="{287DD62D-662C-4AB5-A2D3-B9F5D5EC30FB}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_Sword_Break" ID="{8EC013C4-F445-4AF9-B02C-9780062B3FBF}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_Sword_Shsh" ID="{70295122-4B19-4B0F-82F2-5D9187FC40B3}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_Sword_Unequip" ID="{26DDBA32-0D9B-4B8C-820C-DF51299E0350}" WorkUnitID="{015746BA-7A19-4B99-9977-AA15A27F325A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

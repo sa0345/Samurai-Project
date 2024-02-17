@@ -1,0 +1,1650 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Windows",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{9578FBD4-AF10-3313-B227-21317AF197FE}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{4FFC02A7-AF64-4BB9-BE17-C20DA65537EF}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{8C561446-A0A5-4E22-9555-9D09B246FAA8}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1427625975",
+      "Name": "Bush",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Bush",
+      "GUID": "{778E5518-E3FD-4F69-B641-992AD14B5489}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{6F8268C5-6F3B-424E-8F0A-257D0699889C}",
+      "Switches": [
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Sand",
+        "GUID": "{FD7703A0-C3A1-4809-84F4-B9661BE6BB1F}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Stone",
+        "GUID": "{540FB274-71C7-442C-B98C-B0E12C4CE968}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Wood",
+        "GUID": "{9EBFD288-C05D-44D1-833E-8E78E0AD3F79}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Dirt",
+        "GUID": "{989531C7-34D7-4FE4-8023-DC65E6EB2663}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+        "GUID": "{4CC19DBF-EE71-4249-B772-131835C0CEE6}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{05A819A3-85AE-43E3-B886-C9B5E6581D8C}",
+    "Language": "English(US)",
+    "Hash": "{12269DAE-48AD-B505-D193-128B3DC3A516}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "English(US)/Main.bnk",
+    "Media": [
+     {
+      "Id": "28521304",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_10.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_10_818F3B66.wem"
+     },
+     {
+      "Id": "38320596",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Draw Sword Sheath.wav",
+      "CachePath": "SFX/Sword Draw Sword Sheath_2E018B2C.wem"
+     },
+     {
+      "Id": "40247568",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dirt_footstep_1.WAV",
+      "CachePath": "Voices/English(US)/Dirt_footstep_1_818F3B66.wem"
+     },
+     {
+      "Id": "63091187",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Blood 05.wav",
+      "CachePath": "Voices/English(US)/Sword Blood 05_818F3B66.wem"
+     },
+     {
+      "Id": "93226831",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dirt_footstep_9.WAV",
+      "CachePath": "Voices/English(US)/Dirt_footstep_9_818F3B66.wem"
+     },
+     {
+      "Id": "93785799",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_4.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_4_818F3B66.wem"
+     },
+     {
+      "Id": "101777512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wooden Treasure Chest Opening ｜ Free Sound Effect.wav",
+      "CachePath": "SFX/Wooden Treasure Chest Opening ｜ Free Sound Effect_C8D09A97.wem"
+     },
+     {
+      "Id": "111336982",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 10.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 10_818F3B66.wem"
+     },
+     {
+      "Id": "133387730",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword whoosh 08.wav",
+      "CachePath": "SFX/Sword whoosh 08_818F3B66.wem"
+     },
+     {
+      "Id": "149570588",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dirt_footstep_4.WAV",
+      "CachePath": "Voices/English(US)/Dirt_footstep_4_818F3B66.wem"
+     },
+     {
+      "Id": "150337419",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_2.WAV",
+      "CachePath": "SFX/Stone_footstep_2_818F3B66.wem"
+     },
+     {
+      "Id": "151624087",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_8.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_8_818F3B66.wem"
+     },
+     {
+      "Id": "153859332",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ES_Wind Forest-SFX Producer.wav",
+      "CachePath": "SFX/ES_Wind Forest-SFX Producer_86960843.wem"
+     },
+     {
+      "Id": "170554963",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_3.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_3_818F3B66.wem"
+     },
+     {
+      "Id": "172352948",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 04.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 04_818F3B66.wem"
+     },
+     {
+      "Id": "176369838",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Blood 03.wav",
+      "CachePath": "Voices/English(US)/Sword Blood 03_818F3B66.wem"
+     },
+     {
+      "Id": "177360142",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_8.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_8_818F3B66.wem"
+     },
+     {
+      "Id": "248628373",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword whoosh 10.wav",
+      "CachePath": "SFX/Sword whoosh 10_818F3B66.wem"
+     },
+     {
+      "Id": "287985048",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_5.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_5_818F3B66.wem"
+     },
+     {
+      "Id": "296674678",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ES_Forest 5 - SFX Producer.wav",
+      "CachePath": "Voices/English(US)/ES_Forest 5 - SFX Producer_818F3B66.wem"
+     },
+     {
+      "Id": "304578517",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Swoosh 01.wav",
+      "CachePath": "SFX/Sword Swoosh 01_818F3B66.wem"
+     },
+     {
+      "Id": "309686779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Swoosh 04.wav",
+      "CachePath": "SFX/Sword Swoosh 04_818F3B66.wem"
+     },
+     {
+      "Id": "340665349",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Blood 07.wav",
+      "CachePath": "Voices/English(US)/Sword Blood 07_818F3B66.wem"
+     },
+     {
+      "Id": "368536346",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_5.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_5_818F3B66.wem"
+     },
+     {
+      "Id": "380550222",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_7.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_7_818F3B66.wem"
+     },
+     {
+      "Id": "385395087",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Whoosh 02.wav",
+      "CachePath": "SFX/Sword Whoosh 02_818F3B66.wem"
+     },
+     {
+      "Id": "388148989",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_3.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_3_818F3B66.wem"
+     },
+     {
+      "Id": "389939794",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bushes_Sounds.wav",
+      "CachePath": "SFX/Bushes_Sounds_50E612F3.wem"
+     },
+     {
+      "Id": "411508175",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Blood 06.wav",
+      "CachePath": "Voices/English(US)/Sword Blood 06_818F3B66.wem"
+     },
+     {
+      "Id": "439406078",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Whoosh 03.wav",
+      "CachePath": "SFX/Sword Whoosh 03_818F3B66.wem"
+     },
+     {
+      "Id": "440673397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Swoosh 02.wav",
+      "CachePath": "SFX/Sword Swoosh 02_818F3B66.wem"
+     },
+     {
+      "Id": "456331142",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_9.WAV",
+      "CachePath": "SFX/Stone_footstep_9_818F3B66.wem"
+     },
+     {
+      "Id": "474832294",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_2.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_2_818F3B66.wem"
+     },
+     {
+      "Id": "486673748",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Blood 08.wav",
+      "CachePath": "Voices/English(US)/Sword Blood 08_818F3B66.wem"
+     },
+     {
+      "Id": "493178226",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Swoosh 03.wav",
+      "CachePath": "SFX/Sword Swoosh 03_818F3B66.wem"
+     },
+     {
+      "Id": "493421608",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_7.WAV",
+      "CachePath": "SFX/Stone_footstep_7_818F3B66.wem"
+     },
+     {
+      "Id": "540786340",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_5.WAV",
+      "CachePath": "SFX/Stone_footstep_5_818F3B66.wem"
+     },
+     {
+      "Id": "547471029",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 07.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 07_818F3B66.wem"
+     },
+     {
+      "Id": "549142459",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 05.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 05_818F3B66.wem"
+     },
+     {
+      "Id": "554512068",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 09.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 09_818F3B66.wem"
+     },
+     {
+      "Id": "558345989",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_9.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_9_818F3B66.wem"
+     },
+     {
+      "Id": "568795868",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_1.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_1_818F3B66.wem"
+     },
+     {
+      "Id": "578801098",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_10.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_10_818F3B66.wem"
+     },
+     {
+      "Id": "582682599",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_2.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_2_818F3B66.wem"
+     },
+     {
+      "Id": "592948079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword whoosh 05.wav",
+      "CachePath": "SFX/Sword whoosh 05_818F3B66.wem"
+     },
+     {
+      "Id": "594970619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_4.WAV",
+      "CachePath": "SFX/Stone_footstep_4_818F3B66.wem"
+     },
+     {
+      "Id": "604345664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bushes_Sounds.wav",
+      "CachePath": "SFX/Bushes_Sounds_77983BEB.wem"
+     },
+     {
+      "Id": "608925229",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_9.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_9_818F3B66.wem"
+     },
+     {
+      "Id": "619517457",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 12.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 12_818F3B66.wem"
+     },
+     {
+      "Id": "621762418",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 03.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 03_818F3B66.wem"
+     },
+     {
+      "Id": "628833247",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Blood 09.wav",
+      "CachePath": "Voices/English(US)/Sword Blood 09_818F3B66.wem"
+     },
+     {
+      "Id": "633258770",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Swoosh 05.wav",
+      "CachePath": "SFX/Sword Swoosh 05_818F3B66.wem"
+     },
+     {
+      "Id": "643328720",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 02.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 02_818F3B66.wem"
+     },
+     {
+      "Id": "655379351",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_1.WAV",
+      "CachePath": "SFX/Stone_footstep_1_818F3B66.wem"
+     },
+     {
+      "Id": "658045186",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_7.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_7_818F3B66.wem"
+     },
+     {
+      "Id": "663499786",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Whoosh 01.wav",
+      "CachePath": "SFX/Sword Whoosh 01_818F3B66.wem"
+     },
+     {
+      "Id": "673909095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_3.WAV",
+      "CachePath": "SFX/Stone_footstep_3_818F3B66.wem"
+     },
+     {
+      "Id": "682494842",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Blood 01.wav",
+      "CachePath": "Voices/English(US)/Sword Blood 01_818F3B66.wem"
+     },
+     {
+      "Id": "705299097",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Blood 02.wav",
+      "CachePath": "Voices/English(US)/Sword Blood 02_818F3B66.wem"
+     },
+     {
+      "Id": "707140124",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword whoosh 09.wav",
+      "CachePath": "SFX/Sword whoosh 09_818F3B66.wem"
+     },
+     {
+      "Id": "711500780",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_6.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_6_818F3B66.wem"
+     },
+     {
+      "Id": "723157675",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword whoosh 07.wav",
+      "CachePath": "SFX/Sword whoosh 07_818F3B66.wem"
+     },
+     {
+      "Id": "725340212",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword whoosh 06.wav",
+      "CachePath": "SFX/Sword whoosh 06_818F3B66.wem"
+     },
+     {
+      "Id": "736733006",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_4.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_4_818F3B66.wem"
+     },
+     {
+      "Id": "763467679",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_1.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_1_818F3B66.wem"
+     },
+     {
+      "Id": "771690287",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 11.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 11_818F3B66.wem"
+     },
+     {
+      "Id": "799253711",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 06.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 06_818F3B66.wem"
+     },
+     {
+      "Id": "812126861",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_6.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_6_818F3B66.wem"
+     },
+     {
+      "Id": "832945583",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_3.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_3_818F3B66.wem"
+     },
+     {
+      "Id": "843872015",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_7.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_7_818F3B66.wem"
+     },
+     {
+      "Id": "861641054",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 01.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 01_818F3B66.wem"
+     },
+     {
+      "Id": "870192542",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Whoosh 04.wav",
+      "CachePath": "SFX/Sword Whoosh 04_818F3B66.wem"
+     },
+     {
+      "Id": "870868747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ES_Sword Strike 7 - SFX Producer.wav",
+      "CachePath": "SFX/ES_Sword Strike 7 - SFX Producer_818F3B66.wem"
+     },
+     {
+      "Id": "886468142",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_8.WAV",
+      "CachePath": "SFX/Stone_footstep_8_818F3B66.wem"
+     },
+     {
+      "Id": "886921400",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_2.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_2_818F3B66.wem"
+     },
+     {
+      "Id": "899599130",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_10.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_10_818F3B66.wem"
+     },
+     {
+      "Id": "900552312",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Hit 08.wav",
+      "CachePath": "Voices/English(US)/Sword Hit 08_818F3B66.wem"
+     },
+     {
+      "Id": "912299281",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_4.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_4_818F3B66.wem"
+     },
+     {
+      "Id": "913316302",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dirt_footstep_2.WAV",
+      "CachePath": "Voices/English(US)/Dirt_footstep_2_818F3B66.wem"
+     },
+     {
+      "Id": "927380631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_10.WAV",
+      "CachePath": "SFX/Stone_footstep_10_818F3B66.wem"
+     },
+     {
+      "Id": "935172820",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_8.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_8_818F3B66.wem"
+     },
+     {
+      "Id": "939695518",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand_footstep_9.WAV",
+      "CachePath": "Voices/English(US)/Sand_footstep_9_818F3B66.wem"
+     },
+     {
+      "Id": "945815585",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_footstep_6.WAV",
+      "CachePath": "SFX/Stone_footstep_6_818F3B66.wem"
+     },
+     {
+      "Id": "966829584",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Blood 04.wav",
+      "CachePath": "Voices/English(US)/Sword Blood 04_818F3B66.wem"
+     },
+     {
+      "Id": "1015586253",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dirt_footstep_8.WAV",
+      "CachePath": "Voices/English(US)/Dirt_footstep_8_818F3B66.wem"
+     },
+     {
+      "Id": "1038689634",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_1.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_1_818F3B66.wem"
+     },
+     {
+      "Id": "1055128982",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword Draw Sword Sheath.wav",
+      "CachePath": "SFX/Sword Draw Sword Sheath_4E7A3375.wem"
+     },
+     {
+      "Id": "1060580415",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_footstep_5.WAV",
+      "CachePath": "Voices/English(US)/Wood_footstep_5_818F3B66.wem"
+     },
+     {
+      "Id": "1069176695",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass_footstep_6.WAV",
+      "CachePath": "Voices/English(US)/Grass_footstep_6_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3936565239",
+      "Name": "Forest_Amb",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Forest_Amb",
+      "GUID": "{89AF0453-C6D5-4108-836E-29F63E8BF00F}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "139.872",
+      "DurationMax": "139.872",
+      "MediaRefs": [
+       {
+        "Id": "296674678"
+       }
+      ]
+     },
+     {
+      "Id": "1700430811",
+      "Name": "Play_Bush_Emt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Bush_Emt",
+      "GUID": "{507FDA65-CA01-4400-8EE9-920ECA67D8CC}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "5.611224",
+      "DurationMax": "6.137276",
+      "MediaRefs": [
+       {
+        "Id": "389939794"
+       },
+       {
+        "Id": "604345664"
+       }
+      ]
+     },
+     {
+      "Id": "1932960794",
+      "Name": "Play_Enemy_Sword_Block",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Enemy_Sword_Block",
+      "GUID": "{0050A9C6-A7D6-43A5-AF00-2EFF55CFBB92}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.637875",
+      "DurationMax": "1.5837916",
+      "MediaRefs": [
+       {
+        "Id": "111336982"
+       },
+       {
+        "Id": "172352948"
+       },
+       {
+        "Id": "547471029"
+       },
+       {
+        "Id": "549142459"
+       },
+       {
+        "Id": "554512068"
+       },
+       {
+        "Id": "619517457"
+       },
+       {
+        "Id": "621762418"
+       },
+       {
+        "Id": "643328720"
+       },
+       {
+        "Id": "771690287"
+       },
+       {
+        "Id": "799253711"
+       },
+       {
+        "Id": "861641054"
+       },
+       {
+        "Id": "900552312"
+       }
+      ]
+     },
+     {
+      "Id": "4137903476",
+      "Name": "Play_Enemy_Sword_Break",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Enemy_Sword_Break",
+      "GUID": "{8EC013C4-F445-4AF9-B02C-9780062B3FBF}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4426668",
+      "DurationMax": "2.4426668",
+      "MediaRefs": [
+       {
+        "Id": "870868747"
+       }
+      ]
+     },
+     {
+      "Id": "3547674341",
+      "Name": "Play_Enemy_Sword_Equip",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Enemy_Sword_Equip",
+      "GUID": "{1BA0A0C1-A9C6-435F-90CD-9805B2720FED}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5066662",
+      "DurationMax": "2.5066662",
+      "MediaRefs": [
+       {
+        "Id": "1055128982"
+       }
+      ]
+     },
+     {
+      "Id": "2763466570",
+      "Name": "Play_Enemy_Sword_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Enemy_Sword_Hit",
+      "GUID": "{AE8C3E0F-1953-48EB-AD4D-EBC0E3459F29}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1427709",
+      "DurationMax": "1.6278334",
+      "MediaRefs": [
+       {
+        "Id": "63091187"
+       },
+       {
+        "Id": "176369838"
+       },
+       {
+        "Id": "340665349"
+       },
+       {
+        "Id": "411508175"
+       },
+       {
+        "Id": "486673748"
+       },
+       {
+        "Id": "628833247"
+       },
+       {
+        "Id": "682494842"
+       },
+       {
+        "Id": "705299097"
+       },
+       {
+        "Id": "966829584"
+       }
+      ]
+     },
+     {
+      "Id": "2273180683",
+      "Name": "Play_Enemy_Sword_Shsh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Enemy_Sword_Shsh",
+      "GUID": "{70295122-4B19-4B0F-82F2-5D9187FC40B3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.85891664",
+      "DurationMax": "1.1857916",
+      "MediaRefs": [
+       {
+        "Id": "304578517"
+       },
+       {
+        "Id": "309686779"
+       },
+       {
+        "Id": "440673397"
+       },
+       {
+        "Id": "493178226"
+       },
+       {
+        "Id": "633258770"
+       }
+      ]
+     },
+     {
+      "Id": "2193869106",
+      "Name": "Play_Enemy_Sword_Unequip",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Enemy_Sword_Unequip",
+      "GUID": "{26DDBA32-0D9B-4B8C-820C-DF51299E0350}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3422215",
+      "DurationMax": "3.3422215",
+      "MediaRefs": [
+       {
+        "Id": "38320596"
+       }
+      ]
+     },
+     {
+      "Id": "1136014823",
+      "Name": "Play_Enemy_Sword_Whsh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Enemy_Sword_Whsh",
+      "GUID": "{6A282A0F-0A70-43CB-BE72-0324994CDD76}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5454792",
+      "DurationMax": "0.75527084",
+      "MediaRefs": [
+       {
+        "Id": "133387730"
+       },
+       {
+        "Id": "248628373"
+       },
+       {
+        "Id": "385395087"
+       },
+       {
+        "Id": "439406078"
+       },
+       {
+        "Id": "592948079"
+       },
+       {
+        "Id": "663499786"
+       },
+       {
+        "Id": "707140124"
+       },
+       {
+        "Id": "723157675"
+       },
+       {
+        "Id": "725340212"
+       },
+       {
+        "Id": "870192542"
+       }
+      ]
+     },
+     {
+      "Id": "3035200699",
+      "Name": "Play_EnemyFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_EnemyFootsteps",
+      "GUID": "{32456132-2F33-43B4-BF09-6E4FD66B8E51}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1513441",
+      "DurationMax": "0.70367795",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "1216965916",
+         "GUID": "{540FB274-71C7-442C-B98C-B0E12C4CE968}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "150337419"
+         },
+         {
+          "Id": "456331142"
+         },
+         {
+          "Id": "493421608"
+         },
+         {
+          "Id": "540786340"
+         },
+         {
+          "Id": "594970619"
+         },
+         {
+          "Id": "655379351"
+         },
+         {
+          "Id": "673909095"
+         },
+         {
+          "Id": "886468142"
+         },
+         {
+          "Id": "927380631"
+         },
+         {
+          "Id": "945815585"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "2058049674",
+         "GUID": "{9EBFD288-C05D-44D1-833E-8E78E0AD3F79}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "28521304"
+         },
+         {
+          "Id": "151624087"
+         },
+         {
+          "Id": "474832294"
+         },
+         {
+          "Id": "558345989"
+         },
+         {
+          "Id": "711500780"
+         },
+         {
+          "Id": "736733006"
+         },
+         {
+          "Id": "832945583"
+         },
+         {
+          "Id": "843872015"
+         },
+         {
+          "Id": "1038689634"
+         },
+         {
+          "Id": "1060580415"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "803837735",
+         "GUID": "{FD7703A0-C3A1-4809-84F4-B9661BE6BB1F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "170554963"
+         },
+         {
+          "Id": "177360142"
+         },
+         {
+          "Id": "287985048"
+         },
+         {
+          "Id": "578801098"
+         },
+         {
+          "Id": "582682599"
+         },
+         {
+          "Id": "658045186"
+         },
+         {
+          "Id": "763467679"
+         },
+         {
+          "Id": "812126861"
+         },
+         {
+          "Id": "912299281"
+         },
+         {
+          "Id": "939695518"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1826356874",
+      "Name": "Play_Forest_Wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Forest_Wind",
+      "GUID": "{E4AD6184-EF54-422B-A955-AC1B137C1835}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "153859332"
+       }
+      ]
+     },
+     {
+      "Id": "4266239552",
+      "Name": "Play_Loot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Loot",
+      "GUID": "{B12B2480-EA1D-49EB-B53D-4940A4200B4C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9133426",
+      "DurationMax": "1.9133426",
+      "MediaRefs": [
+       {
+        "Id": "101777512"
+       }
+      ]
+     },
+     {
+      "Id": "458098066",
+      "Name": "Play_Plyer_Sword_Block",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Plyer_Sword\\Play_Plyer_Sword_Block",
+      "GUID": "{23694F2E-6862-412A-AC38-58F98BCB34C1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.637875",
+      "DurationMax": "1.5837916",
+      "MediaRefs": [
+       {
+        "Id": "111336982"
+       },
+       {
+        "Id": "172352948"
+       },
+       {
+        "Id": "547471029"
+       },
+       {
+        "Id": "549142459"
+       },
+       {
+        "Id": "554512068"
+       },
+       {
+        "Id": "619517457"
+       },
+       {
+        "Id": "621762418"
+       },
+       {
+        "Id": "643328720"
+       },
+       {
+        "Id": "771690287"
+       },
+       {
+        "Id": "799253711"
+       },
+       {
+        "Id": "861641054"
+       },
+       {
+        "Id": "900552312"
+       }
+      ]
+     },
+     {
+      "Id": "255460460",
+      "Name": "Play_Plyer_Sword_Break",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Plyer_Sword\\Play_Plyer_Sword_Break",
+      "GUID": "{6E7F7677-FE01-47EF-AE19-538FEB451CB0}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4426668",
+      "DurationMax": "2.4426668",
+      "MediaRefs": [
+       {
+        "Id": "870868747"
+       }
+      ]
+     },
+     {
+      "Id": "2725295741",
+      "Name": "Play_Plyer_Sword_Equip",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Plyer_Sword\\Play_Plyer_Sword_Equip",
+      "GUID": "{51F4BBFD-9370-46D1-A230-A872B74F3938}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5066662",
+      "DurationMax": "2.5066662",
+      "MediaRefs": [
+       {
+        "Id": "1055128982"
+       }
+      ]
+     },
+     {
+      "Id": "2298974802",
+      "Name": "Play_Plyer_Sword_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Plyer_Sword\\Play_Plyer_Sword_Hit",
+      "GUID": "{49BD3A88-C07B-4891-96ED-B1C55577315F}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1427709",
+      "DurationMax": "1.6278334",
+      "MediaRefs": [
+       {
+        "Id": "63091187"
+       },
+       {
+        "Id": "176369838"
+       },
+       {
+        "Id": "340665349"
+       },
+       {
+        "Id": "411508175"
+       },
+       {
+        "Id": "486673748"
+       },
+       {
+        "Id": "628833247"
+       },
+       {
+        "Id": "682494842"
+       },
+       {
+        "Id": "705299097"
+       },
+       {
+        "Id": "966829584"
+       }
+      ]
+     },
+     {
+      "Id": "3926721123",
+      "Name": "Play_Plyer_Sword_Shsh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Plyer_Sword\\Play_Plyer_Sword_Shsh",
+      "GUID": "{10022444-257F-4586-BF3A-CE8D53EE6123}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.85891664",
+      "DurationMax": "1.1857916",
+      "MediaRefs": [
+       {
+        "Id": "304578517"
+       },
+       {
+        "Id": "309686779"
+       },
+       {
+        "Id": "440673397"
+       },
+       {
+        "Id": "493178226"
+       },
+       {
+        "Id": "633258770"
+       }
+      ]
+     },
+     {
+      "Id": "1141856058",
+      "Name": "Play_Plyer_Sword_Unequip",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Plyer_Sword\\Play_Plyer_Sword_Unequip",
+      "GUID": "{1B3DAE66-CE65-452A-AF55-68C251AA398D}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3422215",
+      "DurationMax": "3.3422215",
+      "MediaRefs": [
+       {
+        "Id": "38320596"
+       }
+      ]
+     },
+     {
+      "Id": "2748081503",
+      "Name": "Play_Plyer_Sword_Whsh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Plyer_Sword\\Play_Plyer_Sword_Whsh",
+      "GUID": "{4B394700-098E-4152-897A-353FDF504F69}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5454792",
+      "DurationMax": "0.75527084",
+      "MediaRefs": [
+       {
+        "Id": "133387730"
+       },
+       {
+        "Id": "248628373"
+       },
+       {
+        "Id": "385395087"
+       },
+       {
+        "Id": "439406078"
+       },
+       {
+        "Id": "592948079"
+       },
+       {
+        "Id": "663499786"
+       },
+       {
+        "Id": "707140124"
+       },
+       {
+        "Id": "723157675"
+       },
+       {
+        "Id": "725340212"
+       },
+       {
+        "Id": "870192542"
+       }
+      ]
+     },
+     {
+      "Id": "1681012287",
+      "Name": "PlayerFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\PlayerFootsteps",
+      "GUID": "{287DD62D-662C-4AB5-A2D3-B9F5D5EC30FB}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1513441",
+      "DurationMax": "0.7823835",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "1216965916",
+         "GUID": "{540FB274-71C7-442C-B98C-B0E12C4CE968}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "150337419"
+         },
+         {
+          "Id": "456331142"
+         },
+         {
+          "Id": "493421608"
+         },
+         {
+          "Id": "540786340"
+         },
+         {
+          "Id": "594970619"
+         },
+         {
+          "Id": "655379351"
+         },
+         {
+          "Id": "673909095"
+         },
+         {
+          "Id": "886468142"
+         },
+         {
+          "Id": "927380631"
+         },
+         {
+          "Id": "945815585"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "2058049674",
+         "GUID": "{9EBFD288-C05D-44D1-833E-8E78E0AD3F79}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "28521304"
+         },
+         {
+          "Id": "151624087"
+         },
+         {
+          "Id": "474832294"
+         },
+         {
+          "Id": "558345989"
+         },
+         {
+          "Id": "711500780"
+         },
+         {
+          "Id": "736733006"
+         },
+         {
+          "Id": "832945583"
+         },
+         {
+          "Id": "843872015"
+         },
+         {
+          "Id": "1038689634"
+         },
+         {
+          "Id": "1060580415"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "803837735",
+         "GUID": "{FD7703A0-C3A1-4809-84F4-B9661BE6BB1F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "170554963"
+         },
+         {
+          "Id": "177360142"
+         },
+         {
+          "Id": "287985048"
+         },
+         {
+          "Id": "578801098"
+         },
+         {
+          "Id": "582682599"
+         },
+         {
+          "Id": "658045186"
+         },
+         {
+          "Id": "763467679"
+         },
+         {
+          "Id": "812126861"
+         },
+         {
+          "Id": "912299281"
+         },
+         {
+          "Id": "939695518"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "4248645337",
+         "GUID": "{4CC19DBF-EE71-4249-B772-131835C0CEE6}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "93785799"
+         },
+         {
+          "Id": "368536346"
+         },
+         {
+          "Id": "380550222"
+         },
+         {
+          "Id": "388148989"
+         },
+         {
+          "Id": "568795868"
+         },
+         {
+          "Id": "608925229"
+         },
+         {
+          "Id": "886921400"
+         },
+         {
+          "Id": "899599130"
+         },
+         {
+          "Id": "935172820"
+         },
+         {
+          "Id": "1069176695"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "2195636714",
+         "GUID": "{989531C7-34D7-4FE4-8023-DC65E6EB2663}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40247568"
+         },
+         {
+          "Id": "93226831"
+         },
+         {
+          "Id": "149570588"
+         },
+         {
+          "Id": "913316302"
+         },
+         {
+          "Id": "1015586253"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{6F8268C5-6F3B-424E-8F0A-257D0699889C}",
+      "Switches": [
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Sand",
+        "GUID": "{FD7703A0-C3A1-4809-84F4-B9661BE6BB1F}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Stone",
+        "GUID": "{540FB274-71C7-442C-B98C-B0E12C4CE968}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Wood",
+        "GUID": "{9EBFD288-C05D-44D1-833E-8E78E0AD3F79}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Dirt",
+        "GUID": "{989531C7-34D7-4FE4-8023-DC65E6EB2663}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+        "GUID": "{4CC19DBF-EE71-4249-B772-131835C0CEE6}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9CF197B2-C8E7-6DEA-6C54-C8711959E4F1}"
+ }
+}

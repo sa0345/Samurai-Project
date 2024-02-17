@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{787E49C8-5505-4EA5-A169-1CD4F5F3A8D9}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{787E49C8-5505-4EA5-A169-1CD4F5F3A8D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Bush" ID="{778E5518-E3FD-4F69-B641-992AD14B5489}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

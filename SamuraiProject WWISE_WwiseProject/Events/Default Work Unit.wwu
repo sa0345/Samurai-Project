@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{015746BA-7A19-4B99-9977-AA15A27F325A}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{015746BA-7A19-4B99-9977-AA15A27F325A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{C51D8251-F90D-496D-B90B-8041AFC9DEB5}" ShortID="863662505">
+					<ChildrenList>
+						<Event Name="PlayerFootsteps" ID="{287DD62D-662C-4AB5-A2D3-B9F5D5EC30FB}">
+							<ChildrenList>
+								<Action Name="" ID="{8B01856B-188E-491D-927F-B4C8559551C0}" ShortID="511881379">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerFootsteps" ID="{AC4332C3-8602-459D-B83D-E307FD646FBE}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Plyer_Sword" ID="{7035E898-0928-43F5-99F1-C923373D7E3C}" ShortID="123305812">
+							<ChildrenList>
+								<Event Name="Play_Plyer_Sword_Hit" ID="{49BD3A88-C07B-4891-96ED-B1C55577315F}">
+									<ChildrenList>
+										<Action Name="" ID="{CB94ADBE-164F-4692-BF60-DDBEB6E91F49}" ShortID="185120918">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Plyer_Sword_Hit" ID="{B1C716C4-2060-4989-93C5-3AF1B0051400}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Plyer_Sword_Whsh" ID="{4B394700-098E-4152-897A-353FDF504F69}">
+									<ChildrenList>
+										<Action Name="" ID="{D56F41B6-BB0C-4533-A0F1-D3C5D1A7226B}" ShortID="186618770">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Plyer_Sword_Whsh" ID="{9E09341E-4D2A-48D8-A0F1-3C6E57A77E4C}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Plyer_Sword_Block" ID="{23694F2E-6862-412A-AC38-58F98BCB34C1}">
+									<ChildrenList>
+										<Action Name="" ID="{C466E4CA-2941-4356-8EED-7AF79126D8D4}" ShortID="410191659">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Plyer_Sword_Block" ID="{40753DCE-C108-47B7-BE3A-229757B907CA}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Plyer_Sword_Equip" ID="{51F4BBFD-9370-46D1-A230-A872B74F3938}">
+									<ChildrenList>
+										<Action Name="" ID="{4DF7B168-F49B-4062-8407-7AE7E5EC42D6}" ShortID="215336700">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Plyer_Sword_Equip" ID="{B93A91A0-999E-40CD-900D-49ECA083FD6C}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Plyer_Sword_Unequip" ID="{1B3DAE66-CE65-452A-AF55-68C251AA398D}">
+									<ChildrenList>
+										<Action Name="" ID="{796B1C2A-E5B5-4363-9798-A4F7D9C42989}" ShortID="7877914">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Plyer_Sword_Unequip" ID="{61293D4A-0DB9-45AF-AAFD-9A3934ECD9EB}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Plyer_Sword_Shsh" ID="{10022444-257F-4586-BF3A-CE8D53EE6123}">
+									<ChildrenList>
+										<Action Name="" ID="{FE8756E8-CE86-4F6E-82B8-D79EA40CA67B}" ShortID="34614347">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Plyer_Sword_Shsh" ID="{D9CA7456-C484-494B-A765-CE33B3770EF5}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Plyer_Sword_Break" ID="{6E7F7677-FE01-47EF-AE19-538FEB451CB0}">
+									<ChildrenList>
+										<Action Name="" ID="{842F9812-9E39-4D8C-BE94-9E53A47ACC01}" ShortID="113218974">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Plyer_Sword_Break" ID="{8E17B586-2C96-4131-826A-306D8ED02116}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{C61012EB-1E01-4B2D-AABF-316C7D8CCE68}" ShortID="246394831">
+					<ChildrenList>
+						<Event Name="Forest_Amb" ID="{89AF0453-C6D5-4108-836E-29F63E8BF00F}">
+							<ChildrenList>
+								<Action Name="" ID="{FDC28E04-A232-4D0A-A5FF-DEC164125C3F}" ShortID="514066254">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ES_Forest 5 - SFX Producer" ID="{D1110350-3571-44C2-9896-7B9BE032FF98}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Forest_Wind" ID="{E4AD6184-EF54-422B-A955-AC1B137C1835}">
+							<ChildrenList>
+								<Action Name="" ID="{691A64F5-9A9E-40DB-9F78-3A30BF6CBAF4}" ShortID="1032493672">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forest_Wind" ID="{42072E66-5286-4271-B39C-44A8089F5A93}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bush_Emt" ID="{507FDA65-CA01-4400-8EE9-920ECA67D8CC}">
+							<ChildrenList>
+								<Action Name="" ID="{812EF5B0-F701-4569-8A84-7AA76E47496C}" ShortID="512972266">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bush_Emt" ID="{554B6E5E-9E46-45B5-A5EC-8AA088B17ADC}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemy" ID="{052B8ED6-D61F-4356-9683-5AE669D572ED}" ShortID="859580637">
+					<ChildrenList>
+						<Event Name="Play_Enemy_Sword_Shsh" ID="{70295122-4B19-4B0F-82F2-5D9187FC40B3}">
+							<ChildrenList>
+								<Action Name="" ID="{3846946B-C647-40A7-8F03-73A3084F2FAE}" ShortID="522349168">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Sword_Shsh" ID="{6286004B-CC6A-4766-938F-3A536960192D}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_Sword_Unequip" ID="{26DDBA32-0D9B-4B8C-820C-DF51299E0350}">
+							<ChildrenList>
+								<Action Name="" ID="{4702906C-8BD3-4033-83B5-C9550665455B}" ShortID="677235206">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Sword_Unequip" ID="{0393F9A7-B5B6-4D58-B822-465F7CE5DDA1}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_EnemyFootsteps" ID="{32456132-2F33-43B4-BF09-6E4FD66B8E51}">
+							<ChildrenList>
+								<Action Name="" ID="{8DAC16AE-F55C-46EB-A7F2-3B5DA6C51675}" ShortID="702081433">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemyFootsteps" ID="{EF3F50EA-272D-4682-A898-0A8735536E08}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_Sword_Block" ID="{0050A9C6-A7D6-43A5-AF00-2EFF55CFBB92}">
+							<ChildrenList>
+								<Action Name="" ID="{BC02A919-456C-47B6-B6C8-FF7B1972CF33}" ShortID="454744797">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Sword_Block" ID="{66567CEF-F339-4D59-A1F7-7574AC899D26}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_Sword_Hit" ID="{AE8C3E0F-1953-48EB-AD4D-EBC0E3459F29}">
+							<ChildrenList>
+								<Action Name="" ID="{E5219611-14C5-418D-8022-FD9EE70566E1}" ShortID="943783714">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Sword_Hit" ID="{E6D31D7B-3FC1-4A2A-94FB-D74D6921AD6C}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_Sword_Equip" ID="{1BA0A0C1-A9C6-435F-90CD-9805B2720FED}">
+							<ChildrenList>
+								<Action Name="" ID="{91EF5065-69B8-4D61-BCB9-D336A40C2A25}" ShortID="400817653">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Sword_Equip" ID="{68BAC663-DD75-47AB-9AAA-C04A7E06C04D}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_Sword_Break" ID="{8EC013C4-F445-4AF9-B02C-9780062B3FBF}">
+							<ChildrenList>
+								<Action Name="" ID="{A48BB57B-7E86-4016-A64F-097FB041CA0A}" ShortID="400629541">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Sword_Break" ID="{7F17712D-BC69-4AD5-B907-E4B86507B205}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_Sword_Whsh" ID="{6A282A0F-0A70-43CB-BE72-0324994CDD76}">
+							<ChildrenList>
+								<Action Name="" ID="{81045C19-81AF-4A7E-B55A-7E182B7C7902}" ShortID="725904433">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Sword_Whsh" ID="{096CADE3-BF1F-4968-827D-41BBCF426823}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Loot" ID="{B12B2480-EA1D-49EB-B53D-4940A4200B4C}">
+					<ChildrenList>
+						<Action Name="" ID="{C9D6B128-18EC-47E9-8EE6-E18E018CEE3F}" ShortID="662917232">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Loot" ID="{CF483F5D-2CBA-4B36-B538-32AD3FC28A13}" WorkUnitID="{676872CF-BDAF-4A5A-A9E7-CEE3CAC7150F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
