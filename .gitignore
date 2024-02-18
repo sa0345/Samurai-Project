@@ -46,6 +46,7 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
+Binaries/*
 Plugins/*/Binaries/*
 
 # Builds
@@ -72,5 +73,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+!Plugins/Wwise/Binaries/*
 !Plugins/Wwise/*.dll
 !Plugins/Wwise/*.lib
